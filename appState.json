@@ -1,0 +1,178 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "385a3092-e3be-42c7-b2cf-0ebf5424319f": {
+        "id": "385a3092-e3be-42c7-b2cf-0ebf5424319f",
+        "parent": null,
+        "name": "indunil19",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "9a59c744-b10b-43e2-9a6a-bd756b4d4646",
+          "b7174c6f-e956-430f-b9a3-31f474603eb5",
+          "7ee31337-335c-4e49-96e1-a7d89dede5c4"
+        ],
+        "isRemovable": false,
+        "filePath": "indunil19"
+      },
+      "9a59c744-b10b-43e2-9a6a-bd756b4d4646": {
+        "id": "9a59c744-b10b-43e2-9a6a-bd756b4d4646",
+        "parent": "385a3092-e3be-42c7-b2cf-0ebf5424319f",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indunil19/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1indunilzooindunilTestget",
+            "config": {}
+          }
+        ]
+      },
+      "b7174c6f-e956-430f-b9a3-31f474603eb5": {
+        "id": "b7174c6f-e956-430f-b9a3-31f474603eb5",
+        "parent": "385a3092-e3be-42c7-b2cf-0ebf5424319f",
+        "name": "pyhn1.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indunil19/pyhn1.py",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameget",
+            "config": {}
+          }
+        ]
+      },
+      "7ee31337-335c-4e49-96e1-a7d89dede5c4": {
+        "id": "7ee31337-335c-4e49-96e1-a7d89dede5c4",
+        "parent": "385a3092-e3be-42c7-b2cf-0ebf5424319f",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indunil19/__init__.py"
+      }
+    },
+    "rootNode": "385a3092-e3be-42c7-b2cf-0ebf5424319f",
+    "openFiles": [
+      "9a59c744-b10b-43e2-9a6a-bd756b4d4646",
+      "b7174c6f-e956-430f-b9a3-31f474603eb5"
+    ],
+    "currentFileId": "b7174c6f-e956-430f-b9a3-31f474603eb5",
+    "resources": {
+      "apigusEast1sachithraAPInameget": {
+        "name": "apigusEast1sachithraAPInameget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "zrjp6rdv3b",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "hyze98",
+          "mode": 1
+        }
+      },
+      "apigusEast1indunilzooindunilTestget": {
+        "name": "apigusEast1indunilzooindunilTestget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "indunilzoo",
+          "apiId": "6o600ye7x1",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "vcaf47f804",
+          "existingResources": {
+            "/indunilTest": "qbvxw0",
+            "/": "vcaf47f804"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/indunilTest",
+          "resourceName": "indunilTest",
+          "resourceId": "qbvxw0",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "swd137",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "b7174c6f-e956-430f-b9a3-31f474603eb5",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/indunil19",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "indunil19",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576736161414
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indunil19",
+      "url": "https://github.com/Indunil1992/indunil19"
+    }
+  }
+}
