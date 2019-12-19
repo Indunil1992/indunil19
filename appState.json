@@ -10,7 +10,9 @@
         "children": [
           "9a59c744-b10b-43e2-9a6a-bd756b4d4646",
           "b7174c6f-e956-430f-b9a3-31f474603eb5",
-          "7ee31337-335c-4e49-96e1-a7d89dede5c4"
+          "7ee31337-335c-4e49-96e1-a7d89dede5c4",
+          "b6d14e17-ad4c-4918-92f0-4cc30f105e45",
+          "a458c0af-054c-4d18-8793-69fa5ffc0330"
         ],
         "isRemovable": false,
         "filePath": "indunil19"
@@ -70,14 +72,48 @@
         "children": [],
         "isRemovable": true,
         "filePath": "indunil19/__init__.py"
+      },
+      "b6d14e17-ad4c-4918-92f0-4cc30f105e45": {
+        "id": "b6d14e17-ad4c-4918-92f0-4cc30f105e45",
+        "parent": "385a3092-e3be-42c7-b2cf-0ebf5424319f",
+        "name": "sub1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "ca52a99d-510b-450f-b216-8bdd20dda04d"
+        ],
+        "isRemovable": true,
+        "filePath": "indunil19/sub1"
+      },
+      "ca52a99d-510b-450f-b216-8bdd20dda04d": {
+        "id": "ca52a99d-510b-450f-b216-8bdd20dda04d",
+        "parent": "b6d14e17-ad4c-4918-92f0-4cc30f105e45",
+        "name": "R.r",
+        "type": "R_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indunil19/sub1/R.r"
+      },
+      "a458c0af-054c-4d18-8793-69fa5ffc0330": {
+        "id": "a458c0af-054c-4d18-8793-69fa5ffc0330",
+        "parent": "385a3092-e3be-42c7-b2cf-0ebf5424319f",
+        "name": "jsn1.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indunil19/jsn1.json"
       }
     },
     "rootNode": "385a3092-e3be-42c7-b2cf-0ebf5424319f",
     "openFiles": [
       "9a59c744-b10b-43e2-9a6a-bd756b4d4646",
-      "b7174c6f-e956-430f-b9a3-31f474603eb5"
+      "b7174c6f-e956-430f-b9a3-31f474603eb5",
+      "ca52a99d-510b-450f-b216-8bdd20dda04d",
+      "a458c0af-054c-4d18-8793-69fa5ffc0330"
     ],
-    "currentFileId": "b7174c6f-e956-430f-b9a3-31f474603eb5",
+    "currentFileId": "a458c0af-054c-4d18-8793-69fa5ffc0330",
     "resources": {
       "apigusEast1sachithraAPInameget": {
         "name": "apigusEast1sachithraAPInameget",
@@ -166,7 +202,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576736161414
+    "lastSave": 1576736430382
   },
   "VCS_STATE": {
     "provider": "GitHub",
